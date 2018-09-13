@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>fscoretestextensions</id>
+    <version>0.0.0.0</version>
+    <authors>FaqatSafi</authors>
+	<description>Extensions to the NUnit framework and extensions specific to FSCore to allow easier testing of code using FSCore</description>
+	<dependencies>
+      <group targetFramework="net45">
+        <dependency id="fscore" />
+      </group>
+    </dependencies> 
+  </metadata>
+  <files>
+    <file src="..\Build\Output\FS.Core.TestExtensions\Release\FaqatSafi.Core.TestExtensions.dll" target="lib\net45" />
+	<file src="..\Build\Output\FS.Core.TestExtensions\Release\FaqatSafi.Core.TestExtensions.pdb" target="lib\net45" />
+  </files>
+</package>

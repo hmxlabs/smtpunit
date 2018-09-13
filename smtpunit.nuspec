@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+	<title>HMx Labs SMTP Unit</title>
+    <id>HmxLabs.SmtpUnit</id>
+    <version>0.1.0</version>
+    <authors>HMx Labs: Hamza Mian</authors>
+	<iconUrl>http://hmxlabs.uk/assets/icons/64x64/smtpunit.svg</iconUrl>
+	<owners>hmxlabs</owners>
+	<description>A test SMTP server used in conjunction with NUnit to allow testing of code that sends emails</description>
+	<copyright>Copyright HMx Labs Limited 2018</copyright>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<licenseUrl>http://hmxlabs.uk/software/license.html</licenseUrl>
+	<projectUrl>http://hmxlabs.uk/software/</projectUrl>
+	<dependencies>
+	  <dependency id="NUnit" version="[2.6.4,3.0.0)" />
+    </dependencies>  
+  </metadata>
+  <files>
+	<file src=".\Build\Output\release\SMTPUnit\HmxLabs.SmtpUnit.dll" target="lib\net45" />
+	<file src=".\Build\Output\release\SMTPUnit\HmxLabs.SmtpUnit.pdb" target="lib\net45" />
+	<file src=".\Build\Output\release\SMTPUnit\HmxLabs.SmtpUnit.xml" target="lib\net45" />
+  </files>
+</package>
